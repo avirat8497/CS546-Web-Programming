@@ -1,0 +1,62 @@
+.is-prime {
+  color:#00e676;
+}
+.not-prime{
+  color: #ff3d00;
+}
+h1{
+  color: rgb(90,90,90);
+}
+label {
+  color : rgb(90,90,90);
+  padding-left: 3.5cm;
+  padding-bottom: 2cm;
+  font-size: medium;
+  font-weight: 900;
+}
+
+button{
+  padding: 0.2cm;
+  background-color: beige;
+  color: black;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+
+h1,label,footer,input,
+.error{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: azure;
+}
+
+ol{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: small;
+  font-weight: 600;
+  padding-left: 5.5cm;
+}
+
+.authorData{
+  color: firebrick;
+  font-weight: bold;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: small;
+}
+hr{
+border-top:1px dashed darkcyan ;
+}
+.error{
+font-weight: bold;
+font-size: small;
+color: chocolate;
+padding-left: 3.5cm;
+padding-bottom: 0.7cm;
+}

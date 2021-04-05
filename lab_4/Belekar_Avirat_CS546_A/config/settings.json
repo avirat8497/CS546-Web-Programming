@@ -1,0 +1,6 @@
+{
+    "mongoConfig" : {
+        "serverurl" : "mongodb://localhost:27017/",
+        "database" : "Belekar_Avirat_lab4"
+    }
+}

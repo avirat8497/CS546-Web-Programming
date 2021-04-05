@@ -1,0 +1,6 @@
+{
+    "mongoConfig" : {
+        "serverurl" : "mongo://localhost:27017/",
+        "database": "Avirat_Belekar_lab_6"
+    }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Show Found</title>
+        <link rel="stylesheet" href="/public/site.css"> 
+    </head>
+
+    <body>
+        <main>
+            <h1>Show Found!!</h1>
+            <h2>{{searchTerm}}</h2>
+            <ul>
+                {{#each showsList}}
+                <li>
+                    <a href="/showsearch/{{show.id}}">{{show.name}}</a>
+                </li>
+                {{/each}}
+            </ul>
+            <a href="/">Make Another Search</a>
+        </main>
+    </body>
+
+</html>

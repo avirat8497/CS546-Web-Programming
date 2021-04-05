@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Login Page</title>
+    </head>
+
+    <body>
+        <div class = "Login">
+
+            <main>
+                <h1>
+                    Login Page
+                </h1>
+
+                <form action="/login" method = "POST" id="login-form" class="login-form">
+                <label for="username">USERNAME</label>
+                <input type="text" name="username" id="username" required><br>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required><br>
+                <button type ="submit" id = "submit" class = "button">SUBMIT</button>
+                </form>
+                <p>{{error}}</p>
+            </main>
+        </div>
+    </body>
+</html>

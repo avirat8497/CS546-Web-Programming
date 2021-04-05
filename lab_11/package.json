@@ -1,0 +1,12 @@
+{
+  "name": "cs-546-lab-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "author": "Belekar Avirat 10454332",
+  "license": "ISC"
+}

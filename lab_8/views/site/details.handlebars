@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Show Found</title>
+        <link rel="stylesheet" href="/public/site.css"> 
+    </head>
+<body>
+    <main>
+        <h1>Show Found</h1>
+        <div> 
+            <h2>Show Name</h2>
+            <h2>{{showbyid.name}}</h2> 
+            <img src="{{showbyid.image.medium}}"/> 
+            <dl> 
+                <dt>Language</dt> 
+                <dd>{{showbyid.language}}</dd>
+                <dt>Genres</dt> 
+                <dd> 
+                    <ul> 
+                        {{showbyid.genres}}
+                    </ul> 
+                </dd> 
+                <dt>Average Rating</dt> 
+                <dd>{{showbyid.rating.average}}</dd> 
+                <dt>Network</dt> 
+                <dd>{{showbyid.network.name}}</dd> 
+                <dt>Summary</dt> 
+                <dd>{{showbyid.summary}}</dd> 
+            </dl>
+        </div>
+    </main>   
+</body>
